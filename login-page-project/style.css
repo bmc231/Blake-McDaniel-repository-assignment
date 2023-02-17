@@ -2,14 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width:100vw;
-    min-height:100vh;
+    
+    max-height: 100vh;
 }
 #bgvid{
-    position:fixed;
-    align-self: center;
-    max-width: 100%;
-    z-index: 0;
+    display:flex;
+    position: relative;
+    align-self:center;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit:fill;
 }
 
 
@@ -25,7 +27,7 @@
     min-height: 300px;
     border-radius: 25%;
     box-shadow: 28px 25px 4px 7px rgba(0,0,0,0.75);
-    z-index: 1;
+    position: absolute;
 }
 
 
